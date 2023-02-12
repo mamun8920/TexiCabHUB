@@ -1,3 +1,13 @@
+/* Header-Area 
+..........................................*/
+@media only screen and (max-width: 480px) {
+    
+    .header-content h1 {
+        font-size: 38px;
+    }
 
+    .header-content p {
+        letter-spacing: 2px;
+    }
 
-
+}
