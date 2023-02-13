@@ -113,8 +113,10 @@ body {
     right: 0;    
 }
 
-/* Contact Section  
+/* Best Section  
 ------------------------------------------------------------------*/
-.contact-number {
-    font-size: 76px;
+.best-area {
+    background-image: url(../picture/best-bg.png);
+    background-repeat: no-repeat;
+    background-size:cover; 
 }
