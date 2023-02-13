@@ -14,10 +14,12 @@
 <body>
     <!-- Header-Area 
     ---------------------------------------------------------------------->
-    <header class="header-area p-3 pb-md-5 pb-xl-5 mb-5">
-        <div class="header pd-5 pb-md-5 pb-xl-5 mb-5">
-            <div class="container pb-5 pb-md-5 pb-xl-5 mb-5">
-                <nav class="navbar navbar-expand-lg navbar-dark fw-bold">
+    <header class="header-area p-3">
+        <div class="header">
+            <div class="container ">
+
+                <!-- Navbar -->
+                <nav class="navbar navbar-expand-lg navbar-dark fw-bold text-uppercase">
                     <div class="container-fluid">
                       <a class="navbar-brand" href="#">
                         <img src="picture/Logo.png" alt="Logo">
@@ -40,14 +42,14 @@
                   <!-- End Nav -->
 
 
-                  <div class="row text-center pb-md-5 pb-xl-5">
+                  <div class="row text-center">
                     <div class="col-xl-12">
                         <div class="header-content py-5">
                             <h3 class="text-orange text-uppercase fw-bold">Book Cab Now</h3>
                             <h1>+123 4567 8900</h1>
                             <p class="text-uppercase fs-5">www.psdfreebies.com</p>
                         </div>
-                        <div class="car position-relative pb-md-5 pb-xl-5 mb-5">
+                        <div class="car position-relative">
                             <img class="position-absolute top-0 start-0 img-fluid" src="picture/car.png" alt="car"> 
                         </div>                                                                      
                     </div>                     
@@ -64,12 +66,87 @@
     <main>
         <!-- Booking Section 
     ---------------------------------------------------------------------->
-        <section class="booking">
+        <section class="booking-area bg-orange pb-5 py-xl-5">
+            <div class="booking py-xl-5">
+                <div class="container">
+                    <div class="row gap-5">
+                        <div class="col-xl-6 mt-lg-5 mt-xl-5">
+                            <div class="booking-left mt-5">
+                                <h4 class="text-uppercase text-black fw-bold my-3">Best In City</h4>
+                                <h2 class="text-uppercase text-black fw-bold fs-1">Trusted Cab Servies <br>
+                                    in New York</h2>
+                                <p class="text-black my-5">Quisque sollicitudin feugiat risus, eu posuere ex euismod eu. Phasellus hendrerit, massa efficitur dapibus pulvinar, sapien eros sodales ante, euismod aliquet nulla metus a mauris.Quisque sollicitudin feugiat risus, eu posuere ex euismod eu. Phasellus hendrerit, massa efficitur dapibus pulvinar, sapien eros sodales ante, euismod aliquet nulla metus a mauris.</p>
+                                <button type="button" class="btn btn-dark Bebas fs-4 px-4 mt-6">Read More</button>
+                            </div>
+                        </div>                        
+                        <div class="col-xl-5">
+                            <div class="booking-right bg-white mt-5">
+                                <h2 class="text-uppercase fw-bold bg-dark py-3 ps-4 mb-4">Book a <span class="text-orange">Cab</span></h2>
+                                 
+                                <form class="row g-3 px-5 needs-validation" novalidate>
+                                    
+                                    <div class="col-md-6">                                      
+                                      <input type="text" class="form-control border-3 border-top-0 border-end-0 border-start-0 rounded-0" placeholder="Name" id="validationCustom01" required>  
+                                    </div>
 
+                                    <div class="col-md-6">                                      
+                                      <input type="text" class="form-control border-3 border-top-0 border-end-0 border-start-0 rounded-0" placeholder="Phone" id="validationCustom02" required>
+                                    </div>
+
+
+                                    <div class="col-md-6">
+                                      <input type="text" class="form-control border-3 border-top-0 border-end-0 border-start-0 rounded-0" placeholder="When" id="validationCustom01" required>
+                                      
+                                    </div>
+
+                                    <div class="col-md-6">
+                                      <input type="text" class="form-control border-3 border-top-0 border-end-0 border-start-0 rounded-0" placeholder="Time" id="validationCustom02" required>
+                                    </div>
+
+
+                                    <div class="col-md-6">
+                                      <input type="text" class="form-control border-3 border-top-0 border-end-0 border-start-0 rounded-0" placeholder="Start" id="validationCustom01" required>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                      <input type="text" class="form-control border-3 border-top-0 border-end-0 border-start-0 rounded-0" placeholder="End" id="validationCustom02" required>
+                                    </div>
+                                    
+                                    <div class="col-md-12">
+                                      <select class="form-select border-3 border-top-0 border-end-0 border-start-0 rounded-0" placeholder="Choose Vehicle" id="validationCustom04" required>
+                                        <option selected disabled value="">Choose</option>
+                                        <option>BMW</option>
+                                        <option>Taxi</option>
+                                        <option>Auto</option>
+                                      </select>
+                                    </div>                                    
+                                    <div class="col-12">
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                                        <label class="form-check-label text-black" for="invalidCheck">
+                                          Agree to terms and conditions
+                                        </label>
+                                        <div class="invalid-feedback">
+                                          You must agree before submitting.
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <a type="button" class="btn btn-dark d-block Bebas fs-4 my-3 mx-auto ">Submit form</a>
+                                    </div>
+                                  </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
+
+
         <!-- Tarif Section 
     ---------------------------------------------------------------------->
-        <section class="tarif"></section>
+        <section class="tarif-area">
+                    </section>
         <!-- Best Section 
     ---------------------------------------------------------------------->
         <section class="best"></section>

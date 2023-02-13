@@ -2,6 +2,10 @@
 ..........................................*/
 
 @media(max-width: 768px) {
+
+    .header-area {        
+        height: 600px;        
+    }
     
     .header-content h1 {
         font-size: 50px;
@@ -14,6 +18,10 @@
 }
 
 @media(max-width: 480px) {
+
+    .header-area {        
+        height: 476px;        
+    }
     
     .header-content h1 {
         font-size: 38px;
@@ -26,6 +34,10 @@
 }
 
 @media(max-width: 320px) {
+
+    .header-area {        
+        height: 400px;        
+    }
     
     .header-content h1 {
         font-size: 32px;
