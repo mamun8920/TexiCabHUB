@@ -1,6 +1,19 @@
 /* Header-Area 
 ..........................................*/
-@media only screen and (max-width: 480px) {
+
+@media(max-width: 768px) {
+    
+    .header-content h1 {
+        font-size: 50px;
+    }
+
+    .header-content p {
+        letter-spacing: 8px;
+    }
+
+}
+
+@media(max-width: 480px) {
     
     .header-content h1 {
         font-size: 38px;
@@ -11,3 +24,16 @@
     }
 
 }
+
+@media(max-width: 320px) {
+    
+    .header-content h1 {
+        font-size: 32px;
+    }
+
+    .header-content p {
+        letter-spacing: 0px;
+    }
+
+}
+
