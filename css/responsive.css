@@ -49,3 +49,18 @@
 
 }
 
+/* Tarif Section  
+..........................................*/
+
+
+@media(max-width: 1199px) { 
+    .card {
+    width: 100%;
+    }
+}
+@media(max-width: 320px) {}
+@media(max-width: 320px) {}
+@media(max-width: 320px) {}
+@media(max-width: 320px) {}
+@media(max-width: 320px) {}
+@media(max-width: 320px) {}

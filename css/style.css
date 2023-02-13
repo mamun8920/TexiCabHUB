@@ -47,8 +47,8 @@ body {
     background-color: #ffc61a;
 }
 
-.bg-oe{
-    background-color: #010101;
+.bg-card {
+    background-color: #f5f4f2;
 }
 
 :root {
@@ -100,6 +100,15 @@ body {
 
 /* Tarif Section 
 ------------------------------------------------------------------*/
-.card {
-    background-color: #f5f4f2;
+.card {width: 24rem}
+
+.card-img-top {
+    margin-top: -85px;
+}
+
+.star img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    
 }
