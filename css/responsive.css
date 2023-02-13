@@ -7,7 +7,7 @@
         height: 600px;        
     }
     
-    .header-content h1 {
+    h1 {
         font-size: 50px;
     }
 
@@ -23,7 +23,7 @@
         height: 476px;        
     }
     
-    .header-content h1 {
+    h1 {
         font-size: 38px;
     }
 
@@ -35,30 +35,26 @@
 
 @media(max-width: 320px) {
 
-    .header-area {        
-        height: 400px;        
-    }
+    .header-area {height: 400px;}
     
-    .header-content h1 {
-        font-size: 32px;
-    }
+    h1 {font-size: 32px;}
 
-    .header-content p {
-        letter-spacing: 0px;
-    }
+    .header-content p { letter-spacing: 0px;}
 
 }
 
 /* Tarif Section  
 ..........................................*/
 
-
 @media(max-width: 1199px) { 
-    .card {
-    width: 100%;
-    }
+    .card { width: 100%; }
 }
-@media(max-width: 320px) {}
+
+
+
+
+
+@media(max-width: 767px) {}
 @media(max-width: 320px) {}
 @media(max-width: 320px) {}
 @media(max-width: 320px) {}

@@ -17,6 +17,11 @@ h1,h2,h3,h4,h5,h6,a,ol,ul,input,button, p{
     padding: 0;
 }
 
+h1 {
+    font-weight: 900;
+    font-size: 72px;
+}
+
 p {
     font-size: 18px;
 }
@@ -82,10 +87,6 @@ body {
     background-color: var(--orange);    
 }
 
-.header-content h1 {
-    font-weight: 900;
-    font-size: 72px;
-}
 
 .header-content p {
     letter-spacing: 15px;
@@ -109,6 +110,11 @@ body {
 .star img {
     position: absolute;
     bottom: 0;
-    right: 0;
-    
+    right: 0;    
+}
+
+/* Contact Section  
+------------------------------------------------------------------*/
+.contact-number {
+    font-size: 76px;
 }
