@@ -120,3 +120,11 @@ body {
     background-repeat: no-repeat;
     background-size:cover; 
 }
+
+/* Textimonil Section 
+------------------------------------------------------------------*/
+.textimonil-area {
+    background-image: url(../picture/textimonil-bg.png);
+    background-repeat: no-repeat;
+    background-size:cover; 
+}
